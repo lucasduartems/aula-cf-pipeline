@@ -1,7 +1,6 @@
 Resources:
   Ubuntu:
     Type: 'AWS::EC2::Instance'
-    Properties: {
-      ImageId: 'ami-08c40ec9ead489470',
+    Properties:
+      ImageId: 'ami-08c40ec9ead489470'
       InstanceType: 't2.micro'
-    }
